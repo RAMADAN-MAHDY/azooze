@@ -1,8 +1,8 @@
 const IOS_URL =
-  "https://apps.apple.com/sa/app/captain-azooz-%D9%83%D8%A8%D8%AA%D9%86-%D8%B9%D8%B2%D9%88%D8%B2/id1668170251";
+  "https://apps.apple.com/eg/app/azooz-store-%D8%B9%D8%B2%D9%88%D8%B2-%D9%85%D8%AA%D8%AC%D8%B1/id1668188264";
 
 const ANDROID_URL =
-  "https://play.google.com/store/apps/details?id=com.azooz.user2";
+  "https://play.google.com/store/apps/details?id=com.azooz.storee";
 
 export default function handler(req, res) {
   const userAgent = req.headers["user-agent"] || "";
